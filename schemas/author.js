@@ -8,7 +8,6 @@ export default {
       title: 'Name',
       type: 'string'
     },
-
     {
       name: 'slug',
       title: 'Slug',
@@ -40,6 +39,11 @@ export default {
       }
     },
     {
+      name: 'address',
+      title: 'Address',
+      type: 'address'
+    },
+    {
       name: 'bio',
       title: 'Bio',
       type: 'array',
@@ -51,6 +55,34 @@ export default {
           lists: []
         }
       ]
+    },
+    {
+      name: 'eyeem',
+      type: 'url',
+      title: 'EyeEm',
+      description: 'url for EyeEm'
+    },
+    {
+      name: 'facebook',
+      type: 'url',
+      title: 'Facebook',
+      description: 'url for Facebook'
+    },
+    {
+      name: 'instagram',
+      type: 'url',
+      title: 'Instagram',
+      description: 'url for Insta'
+    },
+    {
+      name: 'email',
+      type: 'string',
+      title: 'Email ID'
+    },
+    {
+      name: 'phone',
+      type: 'string',
+      title: 'Phone Number'
     }
   ],
   preview: {

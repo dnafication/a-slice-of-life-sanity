@@ -8,6 +8,7 @@ website attributes
 - last name
 - subtitle
 - bio
+- logo
 - main pictures
 - social links
   - facebook
